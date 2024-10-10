@@ -129,6 +129,15 @@
         width: 544px;
         text-align: center;
     }
+    .location__content h2{
+        width: 311px;
+        text-align: center;
+    }
+    .location__content p{
+        font-size:18px ;
+        font-weight: 400 ;
+        text-align: center;
+    }
   }
 @media  (max-width:650px) {
     .header__logo{
@@ -278,6 +287,6 @@
       border-bottom: 1px solid #e6e8ec !important;
     }
     .faq__question{
-        width: 300px;
+        width: 300  px;
     }
   }
