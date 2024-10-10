@@ -4,7 +4,7 @@
     }
     .service__card__wrapper{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .service.card{
     width: 240px ;
