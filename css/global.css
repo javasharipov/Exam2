@@ -1,0 +1,10 @@
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.container-lg{
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
