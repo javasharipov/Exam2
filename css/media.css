@@ -63,6 +63,20 @@
         display: none;
     }
 }
+@media (max-width: 1000px) {
+    .footer__top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 50px;
+    }
+  
+    footer ul {
+      width: 100%;
+      height: 90px;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  }
 @media  (max-width:950px){
     .rent__car__wrapper{
         display: flex;
