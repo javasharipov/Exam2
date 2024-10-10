@@ -691,6 +691,10 @@
     font-size: 14px;
     line-height: 16px;
   }
+  footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
   
   footer h6 {
     font-weight: 700 ;
@@ -734,6 +738,10 @@
     color: white;
     font-weight: 700;
     background-color: var(--bg-pr-button);
+  }
+  .footer__input__sendbtn:hover{
+    background-color: #e6e8ec;
+    cursor: pointer;
   }
   .footer__bottom {
     margin-top: 50px;
