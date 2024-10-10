@@ -22,6 +22,31 @@
         font-size: 24px;
         font-weight: 400;
     }
+    .button__destination__upper{
+        display: none;
+
+    }
+    .button__destination__bottom{
+        display: inline-block;
+        display: flex;
+        align-items: start;
+        gap: 8px;
+        margin:48px 0;
+    }
+    .button__destination__bottom button{
+        width:40px ;
+        height:40px ;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        cursor: pointer;
+        background: #fff;
+        border: 1px solid #777e90 ;
+        transition: 0.5s ease-in;
+    }
+    .button__destination__bottom button:hover{
+        background-color: #ddd;
+        border: 1px solid transparent;
+    }
 }
 @media  (max-width:500px) {
     .header__logo{

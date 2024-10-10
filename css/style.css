@@ -139,6 +139,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 180px;
+    padding-bottom: 48px;
 }
 .destination__content{
     display: flex;
@@ -156,12 +157,12 @@
     color: var(--color-secondarytext);
     margin-top: 12px;
 }
-.button__destination{
+.button__destination__upper{
     display: flex;
     gap: 8px;
 
 }
-.button__destination button{
+.button__destination__upper button{
     width:40px ;
     height:40px ;
     border-radius: 50%;
@@ -169,8 +170,63 @@
     cursor: pointer;
     background: #fff;
     border: 1px solid #777e90 ;
-
+    transition: 0.5s ease-in;
 }
-.button__destination button:hover{
-    background: transparent;
+.button__destination__upper button:hover{
+    background-color: #ddd;
+    border: 1px solid transparent;
+}
+.card__destination__wrapper{
+    display:flex ;
+    gap: 32px;
+    overflow: auto;
+    margin-bottom: 48px;
+    
+}
+.card__destination__wrapper::-webkit-scrollbar{
+    height: 8px;
+}
+.card__destination__wrapper::-webkit-scrollbar-thumb{
+    background: #ddd;
+    border-radius:30px ;
+    cursor: pointer;
+}
+.card__destination{
+    min-width:336px ;
+    width: 336px;
+    height: 344px;
+}
+.card__destination h4{
+    margin-top: 21px;
+    color: var(--color-maintext);
+    font-size: 24px;
+    font-weight: 600;
+}
+.card__destination p{
+    margin-top: 8px;
+    color: var(--color-secondarytext);
+    font-size:12px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.button__destination__bottom{
+    display: none;
+}
+.show__btn button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 30px;
+    border-radius: 90px;
+    background-color: #fff;
+    border: 1px solid #e6e8ec;
+    color: var(--color-maintext);
+    font-size:16px ;
+    font-weight:700 ;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.show__btn button:hover{
+   background-color: #e6e8ec;
+   border: 1px solid #ddd ;
 }
