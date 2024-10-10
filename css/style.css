@@ -1,5 +1,94 @@
+/* Header */
 .navbar{
     display: flex;
+    height: 88px;
+    padding: 12px 0;
+    align-items: center;
+
+}
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
     
 
 }
+.header__logo strong{
+    font-family: "Poppins", sans-serif;
+    font-size:  26px; 
+    font-weight: 600;
+    
+}
+.traveler{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    gap: 8px;
+    flex: 1; 
+}
+.traveler:hover{
+    text-decoration: underline #777E90;
+    cursor: pointer;
+}
+.traveler span{
+    color: var(--color-secondarytext);
+
+}
+.navbar__collection{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar__collection li:nth-child(1){
+    color: var(--color-secondarytext);
+    margin-right: 24px;
+    font-size:14px ;
+    font-weight:700 ;
+
+}
+.navbar__collection li:nth-child(1):hover{
+    text-decoration: underline;
+}
+.navbar__collection li:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-secondarytext);
+    font-size:14px ;
+    font-weight:700 ;
+    margin-right: 24px;
+}
+.navbar__collection li:nth-child(2):hover{
+    text-decoration: underline #777E90;
+    cursor: pointer;
+}
+.notification__account_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+.notification__account_image button{
+    padding: 10px 28px;
+    border-radius: 90px;
+    color: #23262F ;
+    border: 1px solid #e6e8ec;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s ease-out;
+
+}
+.notification__account_image button:hover{
+    background-color: #e6e8ec;
+    border: 1px solid #000;
+    transform: scale(1.2);
+
+}
+.burger__menu{
+    display: none;
+}
+
+/* Hero */

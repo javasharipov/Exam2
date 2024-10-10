@@ -1,0 +1,39 @@
+@media  (max-width:1084px) {
+    .navbar__collection{
+        display: none;
+    }
+}
+@media  (max-width:650px) {
+    .header__logo{
+        display: flex;
+        flex: 1;
+    }
+    .traveler{
+    display: none;
+   }
+    .navbar__collection{
+        display: none;
+    }
+}
+@media  (max-width:500px) {
+    .header__logo{
+        display: flex;
+        flex: 1;
+    }
+    .traveler{
+    display: none;
+   }
+    .navbar__collection{
+        display: none;
+    }
+    
+    .notification__account_image button{
+       display: none;
+
+    }
+    .burger__menu{
+        display: inline-block;
+        margin-left: 20px;
+
+    }
+}
