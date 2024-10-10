@@ -345,9 +345,11 @@
     background-color: #ddd;
     border: 1px solid transparent;
 }
+.card__explore{
+    transition: 0.5s;
+}
 .card__explore:hover{
     transform: scale(1.1);
-    transition: 0.5s;
     cursor: pointer;
 }
 .card__explore__wrapper{
@@ -409,7 +411,7 @@
    color: var(--color-secondarytext);
    font-size: 12px;
    font-weight:700 ;
-   font-family: "Poppins", sans-serif;
+   font-family: "Poppins", sans-serif;   
 
 }
 .service__content h2{
@@ -436,6 +438,7 @@
     border: 1px solid var(--bg-pr-button);
 
 }
+
 .service__card{
     width: 300px ;
     height: 170px;
@@ -455,10 +458,89 @@
     font-size:14px ;
     width: 293px;
     font-weight:400 ;
+    line-height: 24px;
     color: var(--color-secondarytext);
     font-family: "Poppins", sans-serif;
 }
 .service__card img{
     width: 48px;
     height: 48px;
+}
+/* sponsors section */
+
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .sponsors div {
+    width: 30%;
+    height: 150px;
+    border: 1px solid #e6e8ec;
+    /* border: 1px solid #e6e8ec; */    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sponsors div:nth-child(1),
+  .sponsors div:nth-child(4) {
+    border-left: none;
+  }
+  
+  .sponsors div:nth-child(3),
+  .sponsors div:nth-child(6) {
+    border-right: none;
+  }
+  
+  .sponsors div:nth-child(1),
+  .sponsors div:nth-child(2),
+  .sponsors div:nth-child(3) {
+    border-top: none;
+  }
+  
+  .sponsors div:nth-child(4),
+  .sponsors div:nth-child(5),
+  .sponsors div:nth-child(6) {
+    border-bottom: none;
+  }
+/* Faq  */
+.faq__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+}
+.faq__content h2{
+    color: var(--color-maintext);
+    font-size:48px ;
+    font-weight:700 ;
+    
+}
+.faq__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 46px;
+}
+.faq__btn button{
+   border-radius: 100px;
+   border: 1px solid transparent;
+    padding: 6px 10px;
+    background-color: #353945;
+    color: #fcfcfd;
+    font-size: 14px;
+    font-weight:700 ;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.faq__btn button:hover{
+    background-color: transparent;
+    color: var(--color-secondarytext);
 }
