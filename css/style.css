@@ -159,6 +159,8 @@
 }
 .button__destination__upper{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 8px;
 
 }
@@ -229,4 +231,162 @@
 .show__btn button:hover{
    background-color: #e6e8ec;
    border: 1px solid #ddd ;
+}
+/* Rent car section  */
+.rent__car__wrapper{
+    display: flex;
+    padding-top: 100px;
+}
+.rent__car__content{
+    padding-top: 166px;
+}
+.rent__car__content strong{
+   font-family: "Poppins", sans-serif;
+   font-size: 12px;
+   font-weight: 700;
+   color: var(--color-secondarytext);
+}
+.rent__car__content h3{
+    margin: 16px 0 32px 0;
+    font-size:48px ;
+    font-weight:700 ;
+    color: var(--color-maintext);
+    line-height:56px ;
+
+}
+.rent__car__content p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px ;
+    font-weight: 400 ;
+    color: var(--color-secondarytext);
+    line-height:24px ;
+}
+.registration__input{
+    position: relative;
+    width: 300px;
+    height: 48px;
+    margin-top: 40px;
+
+}
+.registration__input input{
+   width: 300px;
+   height: 48px;
+   border-radius: 90px;
+   border: 1px solid #e6e8ec;
+   background: #fff;
+   color: var(--color-secondarytext);
+   font-size: 14px;
+   font-weight: 400;
+   font-family: "Poppins", sans-serif;
+   padding: 2px 0 2px 16px ;
+}
+.registration__input button{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background-color: var(--bg-pr-button);
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+.registration__input button:hover{
+    background: #ddd ;
+}
+.rent__car__image img:last-child{
+    display: none;
+}
+/* Explore Section */
+.explore__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 48px;
+}
+.explore__content{
+    display: flex;
+    flex-direction: column;
+}
+.explore__content h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-maintext);
+}
+.explore__content span{
+    font-size:24px ;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+    color: var(--color-secondarytext);
+    margin-top: 12px;
+}
+.button__explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    gap: 8px;
+
+}
+.button__explore button{
+    width:40px ;
+    height:40px ;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #777e90 ;
+    transition: 0.5s ease-in;
+}
+.button__explore button:hover{
+    background-color: #ddd;
+    border: 1px solid transparent;
+}
+.card__explore:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card__explore__wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+}
+.card__explore h4{
+    margin-top: 21px;
+    color: var(--color-maintext);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.card__explore p{
+    margin-top: 8px;
+    color: var(--color-secondarytext);
+    font-size:12px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.card__explore__small{
+    display: none;
+}
+.card__explore__small h4{
+    margin-top: 21px;
+    color: var(--color-maintext);
+    font-size: 24px;
+    font-weight: 600;
+}
+.card__explore__small p{
+    margin-top: 8px;
+    color: var(--color-secondarytext);
+    font-size:12px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.explore__btn{
+    margin-top: 48px;
 }

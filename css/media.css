@@ -1,7 +1,73 @@
+@media  (max-width:1150px){
+    .rent__car__content h3{
+        font-size: 48px;
+    }
+}
+@media  (max-width:1120px){
+    .card__explore__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+    
+    .card__explore{
+        display: none;
+    }
+    .card__explore__small{
+        display: inline-block;  
+    }
+    .card__explore__small:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .explore__btn{
+        display: none;
+    }   
+}
+@media  (max-width:1095px){
+    .explore__body{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 340px;
+    }
+}
 @media  (max-width:1084px) {
     .navbar__collection{
         display: none;
     }
+}
+@media  (max-width:950px){
+    .rent__car__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rent__car__content h3{
+        width: 448px;
+    }
+    .rent__car__content p{
+        width: 311px;
+    }
+ 
+    .rent__car__image img:first-child{
+      margin-top: 40px;
+    }
+    
+}
+@media  (max-width:885px){
+    .explore__body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 50px 0;
+        
+    }
+  
 }
 @media  (max-width:650px) {
     .header__logo{
@@ -47,6 +113,39 @@
         background-color: #ddd;
         border: 1px solid transparent;
     }
+    .rent__car__wrapper{
+        padding-top:2px ;
+    }
+    .rent__car__content h3{
+        width: 311px;
+        font-size: 40px;
+        align-items: start;
+    }
+    .rent__car__image img:first-child{
+        display: none;
+    }
+    .rent__car__image img:last-child{
+        display: inline-block;
+        margin-top: 48px;
+    }
+}
+@media  (max-width:580px){
+    .explore__body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px;
+        gap: 0;
+        margin: 50px 0;
+        
+    }
+    .explore__body h3{
+        width: 223px;
+        font-size: 40px;
+    }
+    .button__explore{
+        padding: 0;
+    }
 }
 @media  (max-width:500px) {
     .header__logo{
@@ -83,5 +182,13 @@
         font-weight: 400;
         text-align: center;
         width: 296px;
+    }
+    .destination__content h3{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .destination__content span{
+        font-size: 16px;
+        font-weight: 400;
     }
 }
